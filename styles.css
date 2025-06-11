@@ -1,0 +1,1116 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+.mapp {
+  width: 500px;
+  height: 550px;
+}
+
+.padd-foot {
+  padding-left: 110px;
+}
+.top-bar {
+  background-color: #003366;
+  color: white;
+  font-size: 0.9rem;
+  padding: 5px 10px;
+}
+.tops {
+  padding-left: 80px;
+}
+.nav-text {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+.top-bar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-brand img {
+  height: 45px;
+}
+
+.navbar-nav .nav-link {
+  color: #007bff;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.navbar-nav {
+  padding-right: 45px;
+  margin-right: 30px;
+}
+.img-top {
+  margin-left: 20px;
+  padding-left: 40px;
+}
+
+.nav-link {
+  position: relative;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #bfdbfe;
+  outline-offset: 2px;
+  outline: 2px solid transparent;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0056b3;
+}
+
+.hero-banner {
+  background: url("images/Banner.webp") center center no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 120px 0 80px 0;
+  position: relative;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero-banner h1 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 20px;
+  font-weight: 1000;
+  font-size: 6rem;
+  line-height: 0.9;
+}
+
+.section-padding {
+  padding: 60px 0;
+}
+
+.circular-img {
+  border-radius: 50%;
+  width: 540px;
+  height: 540px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.arrow {
+  padding-left: 1.5px;
+  height: 10px;
+  width: 10px;
+}
+
+.mole {
+  height: 360px;
+}
+
+.GENOMICS {
+  background: url("images/GENOMICS SERVICES .webp") center center no-repeat;
+  background-size: cover;
+  color: white;
+  position: relative;
+  padding-top: 25px;
+}
+
+.circular-img-covid {
+  border-radius: 50%;
+  width: 460px;
+  height: 460px;
+  object-fit: cover;
+  display: block;
+  margin-left: 150px;
+}
+
+.value-prop {
+  background: url("images/VALUE PROPOSITION_BG.webp") center center no-repeat;
+  background-size: cover;
+  color: black;
+  text-align: center;
+  font-size: small;
+  position: relative;
+  overflow: hidden;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.value-prop .icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+  align-items: center;
+  margin: 1px;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.value-head {
+  font-size: 1.3rem;
+}
+
+.para-val {
+  padding-top: 10px;
+}
+
+.icon-container {
+  width: 85px;
+  height: 85px;
+  background: navy;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 25px;
+  box-shadow: 0 8px 25px rgba(25, 118, 210, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.indimg {
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+}
+
+.circular-img-sci {
+  border-radius: 50%;
+  width: 440px;
+  height: 440px;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+
+.case-studies-section {
+  position: relative;
+  overflow: hidden;
+  background-image: url("images/CASE STUDIES-BG.webp");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.case-studies-section .circular-img {
+  width: 250px;
+  height: 250px;
+}
+
+.pancli {
+  position: relative;
+}
+
+.overlapp {
+  position: absolute;
+  width: 54%;
+  left: 240px;
+  top: 400px;
+  height: 100px;
+  font-size: small;
+}
+
+.clients-logos img {
+  max-height: 70px;
+  width: 150px;
+  margin: 15px;
+  padding: 15px;
+  transition: filter 0.3s ease;
+  border: 0.7px solid grey;
+}
+
+.row1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+  align-items: start;
+}
+
+.logop {
+  padding: 35px;
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.overlapp-img {
+  position: absolute;
+  width: 70%;
+  height: 50%;
+  font-size: small;
+}
+.cert-pad {
+  padding-left: 50%;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.foot-p {
+  font-size: small;
+}
+
+.map-contact-section iframe {
+  margin-left: 100px;
+}
+
+.btn-learn-more {
+  background-color: #fff;
+  color: #004080;
+  border-radius: 20px;
+  padding: 1px 7px;
+}
+
+.btn-learn-more:hover {
+  background-color: #00264d;
+  color: white;
+}
+
+.section-title {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #000000;
+}
+
+.section-title-val {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #000000;
+  padding-bottom: 25px;
+  padding-left: 15px;
+}
+
+.text-blue {
+  color: #003366;
+}
+
+.divider-vertical {
+  border-left: 1px solid #ccc;
+  height: 80px;
+  margin: 0 20px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 1.5rem;
+  margin-right: 8px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #90caf9;
+}
+
+.cert-logos img {
+  max-height: 110px;
+  margin-left: 15px;
+}
+
+.overlapp-gi {
+  position: absolute;
+  left: 920px;
+  top: 60px;
+  height: 50%;
+}
+
+.overlapp-home {
+  position: absolute;
+  left: 850px;
+  top: 380px;
+  height: 50%;
+}
+
+.para-home-1 {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+.overlapp-para-home-1 {
+  position: relative;
+  right: 170px;
+  top: 140px;
+  max-height: 25px;
+  z-index: 5;
+}
+
+.empty-pad {
+  padding: 100px;
+}
+
+.empty-pad-1 {
+  padding: 10px;
+}
+
+.para-home-2 {
+  font-size: 22px;
+  font-weight: 300;
+  align-items: center;
+  padding-left: 35px;
+}
+.para-home-2-1 {
+  font-size: 15px;
+  align-items: center;
+  text-align: center;
+  padding-left: 65px;
+  margin-left: 220px;
+  margin-right: 220px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid navy;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2px;
+  padding-top: 25px;
+}
+
+.form-container {
+  background-color: white;
+  border-radius: 0px;
+  font-size: small;
+  border: 0.5px solid;
+  border-color: lightgray;
+  margin-right: 2%;
+}
+
+.pa-cir {
+  margin-left: 35px;
+}
+
+.covid-head {
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+.covid-head1 {
+  padding-top: 15px;
+  font-size: 23px;
+}
+
+.para-home-5 {
+  font-size: 15px;
+  padding-right: 30px;
+}
+
+.form-head {
+  font-size: 22px;
+}
+
+.form-control {
+  width: 90%;
+  padding: 12px 10px;
+  margin-left: 3%;
+  display: inline-block;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0px;
+  box-sizing: border-box;
+}
+
+.btn-get-in {
+  background-color: #004080;
+  color: white;
+  border-radius: 20px;
+  padding: 1px 5px;
+  transition: background-color 0.3s ease;
+  margin-left: 40%;
+  margin-top: 4%;
+}
+
+.service-title {
+  font-weight: 400;
+  font-size: 1.7rem;
+  color: #000000;
+  padding-left: 35px;
+}
+
+.section-padding-covid {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.covid-side {
+  padding-left: 25px;
+}
+
+.dropdown-menu {
+  transition: all 0.3s ease;
+}
+
+.bbs-home {
+  padding-left: 50px;
+  padding-top: -10px;
+  padding-right: 20px;
+}
+
+/* Next SIZE*/
+
+@media (max-width: 1151px) {
+  .overlapp-para-home-1 {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .case-studies-section {
+    padding: 50px 0;
+  }
+  .case-studies-section .circular-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 991px) {
+  .case-studies-section .circular-img {
+    width: 150px;
+    height: 150px;
+  }
+  .covid-head1 {
+    padding-top: 7px;
+    font-size: 18px;
+  }
+  .para-home-1 {
+    font-size: 12px;
+  }
+}
+
+/* Next SIZE*/
+
+@media (max-width: 1199px) and(min-width: 1100px) {
+  .top-bar {
+    font-size: 0.7rem;
+  }
+  .tops {
+    padding-left: 60px;
+    margin-left: 15px;
+  }
+  .nav-text {
+    font-size: 0.7rem;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 0.7rem;
+  }
+
+  .mole {
+    height: 400px;
+  }
+
+  .circular-img-covid {
+    margin-left: 60px;
+  }
+
+  .value-prop {
+    padding: 60px 15px;
+  }
+
+  .overlapp {
+    top: 350px;
+  }
+
+  .para-home-2-1 {
+    padding-left: 25px;
+    margin-left: 200px;
+    margin-right: 180px;
+  }
+
+  .form-head {
+    font-size: 15px;
+  }
+
+  .bbs-home {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-nav .nav-link {
+    font-size: 0.8rem;
+  }
+  .tope {
+    padding-right: 80px;
+  }
+}
+
+@media (min-width: 768px) {
+  .cert-logos img {
+    max-height: 90px;
+    margin-left: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .pa-cir {
+    margin-left: 10px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .top-bar {
+    font-size: 0.6rem;
+  }
+
+  .cert-logos img {
+    max-height: 60px;
+    margin-left: 15px;
+  }
+  .value-head {
+    font-size: 1.25rem;
+  }
+  .section-title-val {
+    font-size: 2.25rem;
+  }
+  .value-prop {
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid navy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2px;
+    padding-top: 25px;
+  }
+
+  .pa-cir {
+    margin-left: 200px;
+  }
+}
+@media (min-width: 992px) {
+  .mapp {
+    width: 450px;
+    height: 550;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .overlapp {
+    left: 210px;
+    top: 350px;
+  }
+
+  .map-contact-section iframe {
+    margin-left: 10px;
+  }
+  .padd-foot {
+    font-size: small;
+    padding-left: 80px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-banner h1 {
+    padding-top: 10px;
+    font-size: 5rem;
+  }
+
+  .para-home-2-1 {
+    font-size: 12px;
+    padding-left: 35px;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  .circular-img-covid {
+    width: 360px;
+    height: 360px;
+    margin-left: 15px;
+  }
+
+  .circular-img {
+    width: 360px;
+    height: 360px;
+    margin-left: 15px;
+  }
+
+  .circular-img-sci {
+    width: 360px;
+    height: 360px;
+    margin-left: 15px;
+  }
+
+  .value-prop {
+    font-size: small;
+  }
+
+  .indimg {
+    width: auto;
+    height: auto;
+    padding-top: 20px;
+  }
+
+  .overlapp {
+    width: 40%;
+    left: 280px;
+    top: 480px;
+  }
+
+  .clients-logos img {
+    margin: 5px;
+    padding: 15px;
+  }
+
+  .mapp {
+    width: 350px;
+  }
+
+  .map-contact-section iframe {
+    margin-left: 10px;
+  }
+
+  .btn-get-in {
+    margin-left: 60px;
+  }
+  .padd-foot {
+    font-size: 12px;
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mapp {
+    width: 250px;
+    height: 200px;
+    padding-left: 10px;
+  }
+
+  .form-container {
+    font-size: 8px;
+  }
+  .form-head {
+    font-size: 15px;
+  }
+  .btn-get-in {
+    margin-left: 20px;
+  }
+  .indimg {
+    width: auto;
+    height: 100%;
+    padding-top: 20px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 545px) {
+  .overlapp {
+    width: 40%;
+    left: 260px;
+    top: 440px;
+    font-size: smaller;
+  }
+}
+
+@media (min-width:375px) and (max-width: 425px){
+.top-bar {
+  font-size: 0.5rem;
+}
+.tops {
+  padding-left: 20px;
+}
+.nav-text {
+  font-size: 0.4rem;
+}
+
+.navbar-brand img {
+  height: 30px;
+}
+
+.img-top {
+  margin-left: 5px;
+  padding-left: 15px;
+}
+
+.hero-banner {
+  background: url("images/Banners-2.webp") center center no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 10px 0 80px 0;
+}
+
+.hero-banner h1 {
+  padding-top: 35px;
+  padding-bottom: 5px;
+  font-size: 4rem;
+}
+
+.section-padding {
+  padding: 20px 0;
+}
+
+.circular-img {
+  width: 200px;
+  height: 200px;
+}
+
+.arrow {
+  padding-left: 1.5px;
+  height: 6px;
+  width: 6px;
+}
+
+.mole {
+  height: 360px;
+}
+
+.GENOMICS {
+  background: url("images/Banners-4.webp") center center no-repeat;
+  background-size: cover;
+  color: white;
+  position: relative;
+  padding-top: 25px;
+}
+
+.circular-img-covid {
+  width: 200px;
+  height: 200px;
+}
+
+.value-prop {
+  padding: 30px 0;
+}
+
+.value-prop .icon {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 15px;
+  align-items: center;
+  margin: 1px;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+.value-head {
+  font-size: 0.8rem;
+}
+
+.para-val {
+  padding-top: 10px;
+  font-size: 7px;
+  padding: 10px 40px 0px;
+}
+
+.icon-container {
+  width: 45px;
+  height: 45px;
+  background: navy;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 25px;
+  box-shadow: 0 8px 25px rgba(25, 118, 210, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.indimg {
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+}
+
+.circular-img-sci {
+  width: 250px;
+  height: 250px;
+}
+
+.case-studies-section {
+  position: relative;
+  overflow: hidden;
+  background-image: url("images/CASE STUDIES-BG.webp");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.case-studies-section .circular-img {
+  width: 250px;
+  height: 250px;
+}
+
+.pancli {
+  position: relative;
+}
+
+.overlapp {
+  position: absolute;
+  width: 54%;
+  left: 240px;
+  top: 400px;
+  height: 100px;
+  font-size: small;
+}
+
+.clients-logos img {
+  max-height: 70px;
+  width: 150px;
+  margin: 15px;
+  padding: 15px;
+  transition: filter 0.3s ease;
+  border: 0.7px solid grey;
+}
+
+.row1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+  align-items: start;
+}
+
+.logop {
+  padding: 35px;
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.overlapp-img {
+  position: absolute;
+  width: 70%;
+  height: 50%;
+  font-size: small;
+}
+.cert-pad {
+  padding-left: 50%;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.foot-p {
+  font-size: small;
+}
+
+.map-contact-section iframe {
+  margin-left: 100px;
+}
+
+.btn-learn-more {
+  background-color: #fff;
+  color: #004080;
+  border-radius: 20px;
+  padding: 1px 7px;
+}
+
+.btn-learn-more:hover {
+  background-color: #00264d;
+  color: white;
+}
+
+.section-title {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #000000;
+}
+
+.section-title-val {
+  font-size: 1rem;
+  padding-bottom: 5px;
+  padding-left: 15px;
+}
+
+.text-blue {
+  color: #003366;
+}
+
+.divider-vertical {
+  border-left: 1px solid #ccc;
+  height: 80px;
+  margin: 0 20px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 1.5rem;
+  margin-right: 8px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #90caf9;
+}
+
+.cert-logos img {
+  max-height: 45px;
+  margin-left: 5px;
+}
+
+.overlapp-gi {
+  position: absolute;
+  left: 920px;
+  top: 60px;
+  height: 50%;
+}
+
+.overlapp-home {
+  position: absolute;
+  left: 850px;
+  top: 380px;
+  height: 50%;
+}
+
+.para-home-1 {
+  font-size: 7px;
+}
+
+.overlapp-para-home-1 {
+  position: relative;
+  right: 170px;
+  top: 140px;
+  max-height: 25px;
+  z-index: 5;
+}
+
+.empty-pad {
+  padding: 0px;
+}
+
+
+
+.para-home-2 {
+  font-size: 0.8rem;
+}
+.para-home-2-1 {
+  font-size: 7px;
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid navy;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2px;
+  padding-top: 25px;
+}
+
+.form-container {
+  background-color: white;
+  border-radius: 0px;
+  font-size: small;
+  border: 0.5px solid;
+  border-color: lightgray;
+  margin-right: 2%;
+}
+
+.pa-cir {
+  margin-left: 40%;
+}
+
+.covid-head {
+  padding-top: 5px;
+  font-size: 0.9rem;
+}
+
+.covid-head1 {
+  padding-top: 10px;
+  font-size: 1rem;
+}
+
+.para-home-5 {
+  font-size: 7px;
+  padding-right: 30px;
+}
+
+.form-head {
+  font-size: 22px;
+}
+
+.form-control {
+  width: 90%;
+  padding: 12px 10px;
+  margin-left: 3%;
+  display: inline-block;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0px;
+  box-sizing: border-box;
+}
+
+.btn-get-in {
+  background-color: #004080;
+  color: white;
+  border-radius: 20px;
+  padding: 1px 5px;
+  transition: background-color 0.3s ease;
+  margin-left: 40%;
+  margin-top: 4%;
+}
+
+.service-title {
+  font-size: 1rem;
+}
+
+.section-padding-covid {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.covid-side {
+  padding-left: 25px;
+}
+
+.dropdown-menu {
+  transition: all 0.3s ease;
+}
+
+.bbs-home {
+  padding-left: 50px;
+  padding-top: -10px;
+  padding-right: 40px;
+}
+.mapp {
+  width: 500px;
+  height: 550px;
+}
+
+.padd-foot {
+  padding-left: 110px;
+}
+}
